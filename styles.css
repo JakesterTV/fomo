@@ -1,0 +1,97 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1920px;
+	 height: 2000px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Layer1 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1920px;
+	 height: 2000px;
+	 z-index:1;
+} 
+
+ #Ialwayswonderwhybird 
+{ 
+	 left: 80px; 
+	 top: 74px; 
+	 position: absolute; 
+	 width: 1038px;
+	 height: 899px;
+	 z-index:2;
+} 
+
+ #Rectangle1 
+{ 
+	 left: 1173px; 
+	 top: 329px; 
+	 position: absolute; 
+	 width: 32px;
+	 height: 32px;
+	 z-index:3;
+} 
+
+ #Rectangle1copy 
+{ 
+	 left: 675px; 
+	 top: 1882px; 
+	 position: absolute; 
+	 width: 32px;
+	 height: 32px;
+	 z-index:4;
+} 
+
+ #fomofearofmissingout 
+{ 
+	 left: 164px; 
+	 top: 1514px; 
+	 position: absolute; 
+	 width: 13px;
+	 height: 275px;
+	 z-index:5;
+} 
+
+ #itwaskindoflikewakin 
+{ 
+	 left: 774px; 
+	 top: 1005px; 
+	 position: absolute; 
+	 width: 1080px;
+	 height: 937px;
+	 z-index:6;
+} 
+
+ #Layer2 
+{ 
+	 left: 1261px; 
+	 top: 100px; 
+	 position: absolute; 
+	 width: 527px;
+	 height: 703px;
+	 z-index:7;
+} 
+
+ #Layer4 
+{ 
+	 left: 184px; 
+	 top: 1156px; 
+	 position: absolute; 
+	 width: 412px;
+	 height: 634px;
+	 z-index:8;
+} 
