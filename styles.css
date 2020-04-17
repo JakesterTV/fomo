@@ -6,6 +6,10 @@
  body {
 	margin: 0;
 	padding: 0;
+	background-image: url('images/Layer1.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
  }
  
  #background 
@@ -20,16 +24,6 @@
 	 overflow: clip;
 	 z-index:0;
 	} 
-
- #Layer1 
-{ 
-	 left: 0px; 
-	 top: 0px; 
-	 position: absolute; 
-	 width: 1920px;
-	 height: 2000px;
-	 z-index:1;
-} 
 
  #Ialwayswonderwhybird 
 { 
