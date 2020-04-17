@@ -79,8 +79,12 @@
 	 left: 774px; 
 	 top: 1005px; 
 	 position: absolute; 
-	 width: 1080px;
-	 height: 937px;
+	 text-align: right;
+	 font-family: Helvetica;
+	 font-size: 30pt;
+	 color: rgb(255, 255, 255);
+	 line-height: 1.0;
+	 text-transform: uppercase;
 	 z-index:6;
 } 
 
