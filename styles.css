@@ -10,6 +10,11 @@
 	background-repeat: no-repeat;
  }
  
+ a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
  #background 
 { 
 	 left: 0px; 
