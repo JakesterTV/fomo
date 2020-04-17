@@ -6,13 +6,21 @@
 		<title>fear of missing out</title>
 		<link href="styles.css" rel="stylesheet" type="text/css">
 	</head>
+<script>
+	$(document).ready(function() {
+    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
 
-
+        fixedContentPos: false
+    });
+});
+</script>
 	<body>
 		<div id="background">
-			<div id="video" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/t-cH2XtZOl8?controls=0&amp;start=43" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
 			<div id="Ialwayswonderwhybird">
 				i always wonder why birds choose to stay in<br>
 				the same place when they could fly<br>
@@ -34,7 +42,7 @@
 				even in some small way<br>
 				As above so below<br>
 				the blue, the blue, and blue<br>
-				<a href="#video" class="button more">running, tripping, falling</a>
+				<a class="popup-youtube" href="https://youtu.be/t-cH2XtZOl8?t=43">running, tripping, falling.</a>
 			</div>
 			<div id="Rectangle1"><img src="images/Rectangle1.png"></div>
 			<div id="Rectangle1copy"><img src="images/Rectangle1copy.png"></div>
