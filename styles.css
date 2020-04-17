@@ -12,7 +12,7 @@
 	 margin-right: auto; 
 	 width: 1920px;
 	 height: 2000px; 
-	 overflow: hidden;
+	 overflow: clip;
 	 z-index:0;
 	} 
 
