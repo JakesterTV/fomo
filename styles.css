@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Helvetica;
+	src: url(/fonts/Helvetica.ttf);
+  }
+ 
  body {
 	margin: 0;
 	padding: 0;
@@ -31,7 +36,8 @@
 	 left: 80px; 
 	 top: 74px; 
 	 position: absolute; 
-	 font-family: Arial, Helvetica, sans-serif;
+	 font-family: Helvetica;
+	 font-size: 36pt;
 	 z-index:2;
 } 
 
