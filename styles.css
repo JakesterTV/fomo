@@ -39,7 +39,8 @@
 	 font-family: Helvetica;
 	 font-size: 36pt;
 	 color: rgb(255, 255, 255);
-	 line-height: 0.8;
+	 line-height: 1.0;
+	 text-transform: uppercase;
 	 z-index:2;
 } 
 
