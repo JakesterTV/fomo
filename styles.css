@@ -8,8 +8,6 @@
 	padding: 0;
 	background-image: url('images/Layer1.png');
 	background-repeat: no-repeat;
-	width: 90%;
-	max-width: 1360px;
  }
  
  a {
@@ -19,6 +17,7 @@
 
 @media only screen and (min-width : 285px) and (max-width : 480px){}
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
+
 
 	#intro-part1
 	{ 
@@ -96,10 +95,14 @@
 }
 @media only screen and (min-width:1025px) {
 
+	#intro {
+		position: relative;
+		width: 90%;
+		max-width: 1360px;
+	}
+
 	#intro-part1
 	{ 
-		 left: 80px; 
-		 top: 74px; 
 		 position: absolute; 
 		 font-family: Helvetica;
 		 font-size: 30pt;
