@@ -27,7 +27,85 @@
 
 
 @media only screen and (min-width : 285px) and (max-width : 480px){}
-@media only screen and (min-width : 481px) and (max-width : 1024px) {}
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+
+	#intro-part1
+	{ 
+		 left: 80px; 
+		 top: 74px; 
+		 position: absolute; 
+		 font-family: Helvetica;
+		 font-size: 21pt;
+		 color: rgb(255, 255, 255);
+		 line-height: 1.0;
+		 text-transform: uppercase;
+		 z-index:2;
+	} 
+	
+	 #white-square 
+	{ 
+		 left: 1173px; 
+		 top: 329px; 
+		 position: absolute; 
+		 width: 32px;
+		 height: 32px;
+		 z-index:3;
+	} 
+	
+	 #red-square
+	{ 
+		 left: 675px; 
+		 top: 1882px; 
+		 position: absolute; 
+		 width: 32px;
+		 height: 32px;
+		 z-index:4;
+	} 
+	
+	 #fomofearofmissingout 
+	{ 
+		 left: 164px; 
+		 top: 1514px; 
+		 position: absolute; 
+		 width: 13px;
+		 height: 275px;
+		 z-index:5;
+	} 
+	
+	 #intro-part2
+	{ 
+		 left: 774px; 
+		 top: 1005px; 
+		 position: absolute; 
+		 text-align: right;
+		 font-family: Helvetica;
+		 font-size: 21pt;
+		 color: rgb(255, 255, 255);
+		 line-height: 1.0;
+		 text-transform: uppercase;
+		 z-index:6;
+	} 
+	
+	 #sky 
+	{ 
+		 left: 1261px; 
+		 top: 100px; 
+		 position: absolute; 
+		 width: 60%;
+		 z-index:7;
+	} 
+	
+	 #light 
+	{ 
+		 left: 184px; 
+		 top: 1156px; 
+		 position: absolute; 
+		 width: 60%;
+		 z-index:8;
+	} 
+
+
+}
 @media only screen and (min-width:1025px) {
 
 	#intro-part1
