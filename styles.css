@@ -8,6 +8,10 @@
 	padding: 0;
 	background-image: url('images/Layer1.png');
 	background-repeat: no-repeat;
+	width: 90%;
+	max-width: 1360px;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
  }
  
  a {
@@ -19,10 +23,6 @@
 { 
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
-	max-width: 1360px;
-	padding-left: 2.275%;
-	padding-right: 2.275%;
 	} 
 
 
