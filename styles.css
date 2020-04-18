@@ -98,8 +98,9 @@
 	#intro {
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: 2.275%;
-		padding-right: 2.275%;
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 5%;
 		position: relative;
 		width: 90%;
 		max-width: 1360px;
