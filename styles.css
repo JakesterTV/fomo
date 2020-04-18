@@ -10,8 +10,6 @@
 	background-repeat: no-repeat;
 	width: 90%;
 	max-width: 1360px;
-	padding-left: 2.275%;
-	padding-right: 2.275%;
  }
  
  a {
@@ -19,21 +17,11 @@
     text-decoration: none;
 }
 
- #intro
-{ 
-	margin-left: auto;
-	margin-right: auto;
-	} 
-
-
 @media only screen and (min-width : 285px) and (max-width : 480px){}
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
 
 	#intro-part1
 	{ 
-		 left: 80px; 
-		 top: 74px; 
-		 position: absolute; 
 		 font-family: Helvetica;
 		 font-size: 21pt;
 		 color: rgb(255, 255, 255);
